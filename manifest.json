@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "noizros Quick Clean",
+  "version": "1.3.0",
+  "description": "One-click browsing data cleanup. No tab reloads. Private and lightweight.",
+  "permissions": [
+    "browsingData",
+    "storage",
+    "contextMenus",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "noizros Quick Clean — click to clean",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
